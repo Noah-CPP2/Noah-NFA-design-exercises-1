@@ -1,2 +1,14 @@
 # Noah-NFA-design-exercises-1
 A public repo to submit the NFA designs for CS3110 assignment: "NFA design exercises 1"
+
+1) which problem(s) gave you the most trouble? Did you avoid any problem that is too challenging to finish by deadline? Did you ask questions to AI/instructor?
+
+I would say problems 8 and 21 were the most troublesome. Problem 21 was just tedious since you had to make two NFAs for the intersection and the trace the sets of states. It took me a long while to make sure that each state was connected right. Other than that, the only other minor issue was that I did had to look up how to make an NFA intersection of two cases since you cannot use epsilon. Problem 8 was a litte less harder. I just had to figure out how to make a loop so that it doesn't affect the shortest string of 010. Out of all the problems I did, I didn't avoid any of them. I tried to do more challenging ones like 21 so that I could get used to making NFAs for intersection cases. I did use AI, not for the solution, but just to briefly check on my thought process for problem 21. I just wanted to make sure that I was understanding the concept of NFA intersection.
+
+2) which problem(s) surprised you with a "gold-st-ring"? Which next state(s) did you not account for in the subset of next states? why? How to make sure you avoid such errors in your future flight/traffic/compiler state controller tasks, or in the near future, the course projects/exams?
+
+I'm not sure what "gold-st-ring" means so it's hard to answer. For the most part I accounted for most subsets of next states. I just had to make sure that when I looped certain states, I didn't affect the main path of the string requirements. I know that in the problems that I completed, 21 had to do with sets of states. This was used to trace the set of states from two NFAs in the intersection case. Although, I did briefly forget to create a transition for one of the states. In order to avoid errors, it would be best to test with a multitude of different strings. Also since DFAs always need a transition of each symbol in the alphabet, I could create something that checks if each state does so. 
+
+3) Other insights/comments/questions that you want the grader/instructor to know.
+
+I don't particularly ever use .md files to write anything, so the pictues might be broken. I did try to make sure they work but I have no experience with this extension, so who knows if they work right. Other than that, question two above is not very well-answered since I do not know what "gold-st-ring" means and nothing comes up when searching the term.
